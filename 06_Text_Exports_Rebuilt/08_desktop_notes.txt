@@ -1,0 +1,22 @@
+
+
+FullName     : C:\Users\cybersky\Desktop\RECOVERY.HTM
+Length       : 11695
+CreationTime : 10/4/2026 1:38:23 AM
+
+FullName     : C:\Users\cybersky\Desktop\RECOVERY.png
+Length       : 60935
+CreationTime : 10/4/2026 1:38:23 AM
+
+FullName     : C:\Users\cybersky\Desktop\RECOVERY.TXT
+Length       : 1953
+CreationTime : 10/4/2026 1:38:21 AM
+
+
+
+
+
+WallPaper : C:\ProgramData\_VM\background.png
+
+
+

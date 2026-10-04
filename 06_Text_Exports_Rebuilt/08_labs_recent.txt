@@ -1,0 +1,46 @@
+
+FullName                                                                         Length LastWriteTime       
+--------                                                                         ------ -------------       
+C:\Labs\CIP-A106-Lab03\evidence\08_desktop_notes.txt                                826 10/4/2026 1:58:52 AM
+C:\Labs\_RECOVERY_+xshgj.html                                                     11695 10/4/2026 1:50:14 AM
+C:\Labs\_RECOVERY_+xshgj.txt                                                       1953 10/4/2026 1:50:14 AM
+C:\Labs\_RECOVERY_+xshgj.png                                                      60935 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\_RECOVERY_+xshgj.png                                       60935 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\_RECOVERY_+xshgj.txt                                        1953 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\_RECOVERY_+xshgj.html                                      11695 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\work\_RECOVERY_+xshgj.html                                 11695 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\work\_RECOVERY_+xshgj.txt                                   1953 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\work\_RECOVERY_+xshgj.png                                  60935 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\unpacked\_RECOVERY_+xshgj.html                             11695 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\unpacked\_RECOVERY_+xshgj.txt                               1953 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\unpacked\_RECOVERY_+xshgj.png                              60935 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\original\_RECOVERY_+xshgj.png                              60935 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\original\_RECOVERY_+xshgj.txt                               1953 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\original\_RECOVERY_+xshgj.html                             11695 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\original\sample\_RECOVERY_+xshgj.html                      11695 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\original\sample\_RECOVERY_+xshgj.txt                        1953 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\original\sample\_RECOVERY_+xshgj.png                       60935 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\original\sample\malware sample 4\_RECOVERY_+xshgj.html     11695 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\original\sample\malware sample 4\_RECOVERY_+xshgj.txt       1953 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\original\sample\malware sample 4\_RECOVERY_+xshgj.png      60935 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\memory\_RECOVERY_+xshgj.html                               11695 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\memory\_RECOVERY_+xshgj.txt                                 1953 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\memory\_RECOVERY_+xshgj.png                                60935 10/4/2026 1:50:14 AM
+C:\Labs\CIP-A106-Lab03\memory\gudpnujaukba_8532.dmp.mp3                       132232656 10/4/2026 1:50:13 AM
+C:\Labs\CIP-A106-Lab03\evidence\_RECOVERY_+xshgj.txt                               1953 10/4/2026 1:50:07 AM
+C:\Labs\CIP-A106-Lab03\evidence\_RECOVERY_+xshgj.html                             11695 10/4/2026 1:50:07 AM
+C:\Labs\CIP-A106-Lab03\evidence\_RECOVERY_+xshgj.png                              60935 10/4/2026 1:50:07 AM
+C:\Labs\CIP-A106-Lab03\evidence\08_process_8532_state.txt.mp3                       608 10/4/2026 1:50:06 AM
+C:\Labs\CIP-A106-Lab03\evidence\08_labs_recent.txt.mp3                             9712 10/4/2026 1:50:06 AM
+C:\Labs\CIP-A106-Lab03\evidence\08_dump_record.txt.mp3                              944 10/4/2026 1:50:06 AM
+C:\Labs\CIP-A106-Lab03\evidence\07_window_owners.txt.mp3                           2320 10/4/2026 1:50:06 AM
+C:\Labs\CIP-A106-Lab03\evidence\07_user_files_recent.txt.mp3                       1984 10/4/2026 1:50:06 AM
+C:\Labs\CIP-A106-Lab03\evidence\07_user_files.txt.mp3                             27088 10/4/2026 1:50:06 AM
+C:\Labs\CIP-A106-Lab03\evidence\07_process_check.txt.mp3                           1632 10/4/2026 1:50:06 AM
+C:\Labs\CIP-A106-Lab03\evidence\07_process_8532.txt.mp3                            1504 10/4/2026 1:50:06 AM
+C:\Labs\CIP-A106-Lab03\evidence\07_note_hashes.txt.mp3                             1344 10/4/2026 1:50:06 AM
+C:\Labs\CIP-A106-Lab03\evidence\07_note_documents.txt.mp3                           880 10/4/2026 1:50:06 AM
+C:\Labs\CIP-A106-Lab03\evidence\07_new_files.txt.mp3                               1312 10/4/2026 1:50:06 AM
+
+
+

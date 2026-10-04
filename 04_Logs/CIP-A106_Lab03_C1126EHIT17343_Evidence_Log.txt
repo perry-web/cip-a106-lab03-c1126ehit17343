@@ -1,0 +1,75 @@
+CIP-A106 Laboratory 3 - Evidence Log
+Student: Perry Koko, C1126EHIT17343
+Environment: FLARE-VM (VMware Workstation), Windows 11 Pro 10.0.26200, host DESKTOP-JV8FNEG, user cybersky
+Times: VM local time. Format: date time | event | evidence
+Status of this file: rebuilt after the exercise from console output, screenshots and file hashes.
+The original PowerShell transcript from 2026-10-03 11:02 was encrypted by the sample and is not recoverable.
+Labels: OBSERVED = recorded by a tool; INFERRED = interpretation; NOT OBSERVED.
+Exhibit numbers (E01-E64) refer to the files in 05_Screenshots and the Evidence Appendix.
+
+=== 2026-10-03 ===
+11:00:24 | Snapshot Lab03_Clean_Baseline taken before handling the archive | E58 (Snapshot Manager)
+11:02    | Baseline PowerShell transcript started (later encrypted by the sample, not recoverable) | 99810D8A...F42A (encrypted copy)
+11:18:57 | Network adapter connected to bring in the archive (deviation); flaps follow | Windows network events
+11:29:48 | Last "Network Disconnected" event | Windows network events
+11:40:27 | Working copy work\demo1_ransomware.exe created from the extracted original | SHA-256 5343947829609F69E84FE7E8172C38EE018EDE3C9898D4895275F596AC54320D
+11:41:26 | Snapshot Lab03_PreDebug taken | E59
+11:49-12:02 | PEStudio static triage: file info, indicators, imports (6), sections, strings (10,696), resources (13), debug (RSDS), entry point 0x3C40 | E01-E08
+12:04    | VM settings captured: Host-only, Connected and Connect at power on unchecked; VM Options | E09-E11
+12:05:47 | Hash of the working copy recorded before debugging | PowerShell Get-FileHash
+12:06:35 | Environment record: Perry Koko, DESKTOP-JV8FNEG, PowerShell 5.1.26100.7920, Windows 11 Pro 10.0.26200 | 00_environment
+12:12    | x32dbg PID 7380: system breakpoint | E12
+12:28    | x32dbg PID 8360: stopped at TLS callback | E13
+12:31    | Breakpoints tab | E14
+12:45:25 | UNCONTROLLED FIRST RUN: gudpnujaukba.exe PID 8532 started from C:\Windows, cwd C:\Labs\CIP-A106-Lab03\work\. Self-copy created (12:45:24); HKCU Run value iorpyhcbjsja | Get-Item, Prefetch GUDPNUJAUKBA.EXE-5214688C.pf (created 12:45:35)
+12:45:47 | x32dbg PID 7784 started (debug session) | System Informer
+12:48    | PID 7784 TLS callback 2; memory map; breakpoints | E15-E17
+12:52    | Dialog "Windows cannot find 'wmic.exe'" on screen (originating process not attributed) | E18
+12:55    | PID 7784 stopped at entry 00403C40; dialog still shown | E19
+
+=== 2026-10-04 ===
+01:16    | x32dbg PID 3848: system breakpoint log | E20
+01:20:21 | Snapshot Lab03_PostFirstRun taken | E60, E21
+01:29    | Earlier transcripts (Sept 26, Oct 3 other than baseline) encrypted by the sample | Directory listing
+01:30-01:37 | System Informer on PID 8532: about 40% CPU, 1.4-1.7 MB/s I/O, 4 sample threads, disk read 11.22 GB / write 5.72 GB | E22-E28
+01:33    | Dialog wmic.exe shown again | E26 (System Informer screenshot, dialog visible on desktop)
+01:36:06 | Dump of PID 8532 created (gudpnujaukba_8532.dmp.mp3) | 1F9F919E...669CC; later found encrypted and not a valid MDMP
+01:44:43 | VM restarted (LastBootUpTime) | Win32_OperatingSystem
+01:50:03 | PID 4820 started: C:\Users\cybersky\Documents\bbflnrupddix.exe, cwd C:\Windows\System32, parent shown as non-existent process 1120; later suspended (7 threads) | E30-E33; Prefetch BBFLNRUPDDIX.EXE-21B1F434.pf
+01:55    | wmic.exe and "Print Pictures Error" dialogs; PowerShell shows the missing 8532 dump path | E29
+02:04-02:09 | 8,009 .mp3 (encrypted) files counted | 09_mp3_files.txt
+02:13:00 | Baseline transcript encrypted to .txt.mp3 (111,392 B) | 99810D8AC736DD8C...F42A
+02:16:46 | Dump of suspended PID 4820 created (117,739,615 B, valid MDMP, 357 regions, 55 modules) | 6FA90986...79C0B8
+02:18:23 | Snapshot Lab03_Suspended_4820 taken | E61
+02:24    | System Python unusable (stdlib encrypted); C# validator dumpcheck.cs written | 11_dump_validation.txt, 11_dump_validation_cs.txt
+02:28:05 | Unpacked image extracted from the 4820 dump | 42900DE6...D9A8
+11:37    | Payload image and .rdata string summaries | 12_payload_image.txt
+11:42:33 | Snapshot Lab03_PreOEP taken | E62
+11:46-11:53 | Session S1 (PID 5348, inferred): Log, TLS stop, breakpoints, memory map | E34-E38; exit code 1
+         | Session S2 (PID not captured): exit code 1 | Log lines 165-282
+12:07:28 | Self-copy vltxuvwdbsbu.exe created (session S1-S3 range) | Get-Item
+12:08    | S3 PID 6068 stopped at entry 00403C40 | E39
+12:08:19 | Self-copy raknlbaoydys.exe created | Get-Item
+12:12-12:19 | S3 Log; VirtualAlloc stops (12:14); shlwapi TLS stops (12:19) | E40-E45
+12:21-12:39 | S3 VirtualProtect calls 1-5 observed with arguments | E46-E51
+12:42:56 | Self-copy wlcdcfqqewfn.exe created | Get-Item
+12:43    | S4 PID 7152: hardware execute breakpoint hit at OEP 004265E8; thread 6912 created; exit code 0 | E52
+12:50:14 | Dump at OEP created (43,342,498 B, valid MDMP, 218 regions, 30 modules) | C93F7330...192AB
+12:51:23 | Unpacked image extracted from the OEP dump | 8DE53033...75E5
+12:58-13:00 | System Informer, breakpoint hit counts (VirtualAlloc 3, VirtualProtect 6, 004265E8 1), memory map, Log with all six VirtualProtect calls | E53-E57
+13:03:34 | x32dbg log exported (26,491 B) | log-20261004-130334.txt
+13:11:43 | Log copied to evidence\14_x32dbg_log_7152.txt (26,587 B) | 6DD5916D...0E32D
+13:27    | Log lines 86-160 reviewed; listing of .exe files created in the last 3 hours shows the three Windows self-copies | 04_Logs\x32dbg_S4_log_lines_86-160.txt
+13:30    | Run keys listed: five malicious HKCU values; HKLM clean. Three self-copies re-hashed: identical SHA-256 | Console output
+13:32:40 | Five HKCU Run values removed; key exported | 15_hkcu_run_after.reg
+13:39    | VM settings and snapshot detail screenshots captured: Guest Isolation (drag and drop, copy/paste enabled as found), Shared Folders Disabled | E58-E64
+13:55-13:56 | PowerShell transcripts copied and hashed | 17_transcript_* copies
+13:58-14:02 | Lab folder inventory with SHA-256 for every non-.mp3 file; text bundle built (20,383 B) | 18_text_bundle.txt
+14:03    | Package assembled outside the VM; raw dumps, executables and encrypted files excluded | This package
+
+=== Pending ===
+The clean snapshot Lab03_Clean_Baseline is restored ONLY after the package has been downloaded and confirmed.
+After the restore, run the baseline commands in README section 9 and add the output as "post-restore verification".
+
+=== Gaps (see report section 11) ===
+S2 PID not captured; parent of PID 7152 not captured; CreateFileW/CreateProcessW arguments not read; EnableLinkedConnections origin unverified; no packet capture; cipher not analysed.

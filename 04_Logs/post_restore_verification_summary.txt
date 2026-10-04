@@ -1,0 +1,34 @@
+CIP-A106 Lab03 - Post-restore verification (after restoring Lab03_Clean_Baseline)
+Student: Perry Koko, C1126EHIT17343
+Recorded 2026-10-04 14:37 VM local time. This is NOT a pre-execution baseline: it confirms the restored VM is clean.
+Original transcript: C:\Labs\post_restore_verification.txt (console output below is the pasted copy).
+
+RESULT SUMMARY (OBSERVED)
+- Processes: 130 listed; none of gudpnujaukba, bbflnrupddix, vltxuvwdbsbu, raknlbaoydys, wlcdcfqqewfn or demo1_ransomware.
+- HKCU Run: OneDrive, ZoomIt, MicrosoftEdgeAutoLaunch only. The five random-named values are absent.
+- HKLM Run: SecurityHealth, VMware User Process, BinDiffPerUserSetup.
+- Network adapter Ethernet0: Disconnected.
+- No 368,640-byte .exe in C:\Windows (the sample size): command returned nothing.
+- C: used 53.06 GB, free 47.96 GB.
+
+CONSOLE OUTPUT (process list condensed to ProcessName counts; Run keys, adapter and file check verbatim)
+
+Process list (Id: name) condensed:
+svchost x66, csrss x2, WmiPrvSE x2, msedgewebview2 x6, dllhost x5, vmtoolsd x2, vm3dservice x2, internet_detector x2, explorer, powershell, MsMpEng, SecurityHealthService, SecurityHealthSystray, OfficeClickToRun and standard Windows services. Full list is in the VM transcript.
+
+PS > Get-ItemProperty "HKCU:\...\Run","HKLM:\...\Run" | Format-List
+OneDrive    : "C:\Program Files (x86)\Microsoft OneDrive\OneDrive.exe" /background
+ZoomIt      : C:\Tools\sysinternals\ZoomIt64.exe
+MicrosoftEdgeAutoLaunch_E430B68F8A79235BA6169AF5D61076AB : "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --no-startup-window --win-session-start
+SecurityHealth      : C:\WINDOWS\system32\SecurityHealthSystray.exe
+VMware User Process : "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr
+BinDiffPerUserSetup : "C:\Program Files\BinDiff\bin\bindiff_config_setup.exe" --per_user
+
+PS > Get-NetAdapter | Format-Table Name,Status,InterfaceDescription
+Ethernet0 Disconnected Intel(R) 82574L Gigabit Network Connection
+
+PS > Get-PSDrive C
+C   Used (GB) 53.06   Free (GB) 47.96   Root C:\
+
+PS > Get-ChildItem C:\Windows -Filter *.exe -Force | Where-Object { $_.Length -eq 368640 }
+(no output)

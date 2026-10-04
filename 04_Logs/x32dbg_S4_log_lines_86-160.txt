@@ -1,0 +1,75 @@
+Hardware breakpoint at 0041EAA0 set!
+Hardware breakpoint at 0041FEB0 set!
+Hardware breakpoint at 00403C40 set!
+DLL Loaded: 76CC0000 C:\Windows\SysWOW64\imm32.dll
+Thread 6540 created, Entry: ntdll.77096290, Parameter: 00751870
+INT3 breakpoint at <demo1_ransomware.OptionalHeader.AddressOfEntryPoint> (00403C40)!
+You can only set 4 hardware breakpoints
+Thread 5948 created, Entry: ntdll.77096290, Parameter: 00751870
+INT3 breakpoint at <kernel32.VirtualAlloc> (751565F0)!
+INT3 breakpoint at <kernel32.VirtualAlloc> (751565F0)!
+INT3 breakpoint at <kernel32.VirtualAlloc> (751565F0)!
+DLL Loaded: 722C0000 C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.8036_none_b6a1702f52423e6e\GdiPlus.dll
+Breakpoint at 76AEA9D0 (TLS Callback 1 (shlwapi.dll)) set!
+Breakpoint at 76AEAA60 (TLS Callback 2 (shlwapi.dll)) set!
+DLL Loaded: 76AD0000 C:\Windows\SysWOW64\shlwapi.dll
+DLL Loaded: 743B0000 C:\Windows\SysWOW64\windows.storage.dll
+INT3 breakpoint "TLS Callback 1 (shlwapi.dll)" at shlwapi.76AEA9D0!
+INT3 breakpoint "TLS Callback 2 (shlwapi.dll)" at shlwapi.76AEAA60!
+DLL Loaded: 76910000 C:\Windows\SysWOW64\psapi.dll
+DLL Loaded: 75950000 C:\Windows\SysWOW64\shell32.dll
+DLL Loaded: 75530000 C:\Windows\SysWOW64\WinTypes.dll
+DLL Loaded: 74AA0000 C:\Windows\SysWOW64\ole32.dll
+DLL Loaded: 722A0000 C:\Windows\SysWOW64\mpr.dll
+DLL Loaded: 73080000 C:\Windows\SysWOW64\wininet.dll
+INT3 breakpoint at <kernel32.VirtualProtect> (75156B30)!
+INT3 breakpoint at <kernel32.VirtualProtect> (75156B30)!
+INT3 breakpoint at <kernel32.VirtualProtect> (75156B30)!
+INT3 breakpoint at <kernel32.VirtualProtect> (75156B30)!
+INT3 breakpoint at <kernel32.VirtualProtect> (75156B30)!
+INT3 breakpoint at <kernel32.VirtualProtect> (75156B30)!
+DLL Loaded: 73EC0000 C:\Windows\SysWOW64\kernel.appcore.dll
+DLL Loaded: 75F90000 C:\Windows\SysWOW64\bcryptprimitives.dll
+DLL Loaded: 73460000 C:\Windows\SysWOW64\uxtheme.dll
+DLL Loaded: 74DC0000 C:\Windows\SysWOW64\SHCore.dll
+Thread 3040 created, Entry: gdiplus.7233C610, Parameter: 00770B38
+DLL Loaded: 74CA0000 C:\Windows\SysWOW64\msctf.dll
+DLL Loaded: 73EE0000 C:\Windows\SysWOW64\profapi.dll
+INT3 breakpoint at <kernel32.CreateFileW> (7515EA00)!
+INT3 breakpoint at <kernel32.CreateFileW> (7515EA00)!
+DLL Loaded: 74380000 C:\Windows\SysWOW64\ntmarta.dll
+INT3 breakpoint at <kernel32.CreateProcessW> (7515D520)!
+DLL Loaded: 734F0000 C:\Windows\SysWOW64\propsys.dll
+DLL Loaded: 75090000 C:\Windows\SysWOW64\oleaut32.dll
+DLL Loaded: 754A0000 C:\Windows\SysWOW64\clbcatq.dll
+Thread 4208 created, Entry: combase.76DDAE70, Parameter: 007801A0
+Thread 1856 created, Entry: ntdll.77096290, Parameter: 00769C40
+Thread 3044 created, Entry: ntdll.77096290, Parameter: 00769C40
+DLL Loaded: 6FF50000 C:\Windows\SysWOW64\cfgmgr32.dll
+DLL Loaded: 6F600000 C:\Windows\SysWOW64\edputil.dll
+DLL Loaded: 6DBE0000 C:\Windows\SysWOW64\urlmon.dll
+DLL Loaded: 6D990000 C:\Windows\SysWOW64\iertutil.dll
+DLL Loaded: 72FB0000 C:\Windows\SysWOW64\srvcli.dll
+DLL Loaded: 740A0000 C:\Windows\SysWOW64\netutils.dll
+Thread 7424 created, Entry: shcore.74DF2A20, Parameter: 007A0BB8
+DLL Loaded: 6E7E0000 C:\Windows\SysWOW64\Windows.StateRepositoryPS.dll
+DLL Loaded: 740B0000 C:\Windows\SysWOW64\sspicli.dll
+DLL Loaded: 74360000 C:\Windows\SysWOW64\virtdisk.dll
+DLL Loaded: 74300000 C:\Windows\SysWOW64\wldp.dll
+DLL Loaded: 742E0000 C:\Windows\SysWOW64\smartscreenps.dll
+DLL Loaded: 74260000 C:\Windows\SysWOW64\shdocvw.dll
+DLL Loaded: 74170000 C:\Windows\SysWOW64\winhttp.dll
+INT3 breakpoint at <kernel32.CreateProcessW> (7515D520)!
+INT3 breakpoint at <kernel32.ExitProcess> (7516AE90)!
+Thread 4048 exit
+Thread 7352 exit
+Thread 6540 exit
+Thread 5948 exit
+Thread 3040 exit
+Thread 4208 exit
+Thread 1856 exit
+Thread 3044 exit
+Thread 7424 exit
+Process stopped with exit code 0x1 (1)
+Saving database to C:\Tools\x64dbg\release\x32\db\demo1_ransomware.exe.dd32 31ms
+Debugging stopped!

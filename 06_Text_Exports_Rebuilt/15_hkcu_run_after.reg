@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run]
+"OneDrive"="\"C:\\Program Files (x86)\\Microsoft OneDrive\\OneDrive.exe\" /background"
+"ZoomIt"="C:\\Tools\\sysinternals\\ZoomIt64.exe"
+"iorpyhcbjsja"="C:\\WINDOWS\\system32\\cmd.exe /c start \"\" \"C:\\WINDOWS\\gudpnujaukba.exe\""
+"MicrosoftEdgeAutoLaunch_E430B68F8A79235BA6169AF5D61076AB"="\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start"
+"vylvawuyxpdy"="C:\\WINDOWS\\system32\\cmd.exe /c start \"\" \"C:\\Users\\cybersky\\Documents\\bbflnrupddix.exe\""
+"lccjvxmpqmjl"="C:\\WINDOWS\\system32\\cmd.exe /c start \"\" \"C:\\WINDOWS\\vltxuvwdbsbu.exe\""
+"objdqnybfhvp"="C:\\WINDOWS\\system32\\cmd.exe /c start \"\" \"C:\\WINDOWS\\raknlbaoydys.exe\""
+"wikqxbughfcu"="C:\\WINDOWS\\system32\\cmd.exe /c start \"\" \"C:\\WINDOWS\\wlcdcfqqewfn.exe\""
+

@@ -1,0 +1,18 @@
+
+
+Name          : gudpnujaukba_8532.dmp.mp3
+Length        : 132232656
+CreationTime  : 10/4/2026 1:36:06 AM
+LastWriteTime : 10/4/2026 1:50:13 AM
+
+
+
+00 00 00 00 00 00 00 00 48 55 EB 75 F8 8F BD 05 00 00 00 00 00 00 00 00 04 D0 3A 4E 4E 03 84 0B
+
+
+Algorithm : SHA256
+Hash      : 1F9F919EBC1D6077BE971762BAC200507D87EE45FA60FCBCF1D2B95D268669CC
+Path      : C:\Labs\CIP-A106-Lab03\memory\gudpnujaukba_8532.dmp.mp3
+
+
+

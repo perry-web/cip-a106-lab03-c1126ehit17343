@@ -1,0 +1,75 @@
+
+
+Name         : demo1_ransomware_7152_oep.dmp
+Length       : 43342498
+CreationTime : 10/4/2026 12:50:14 PM
+
+
+
+
+
+Algorithm : SHA256
+Hash      : C93F7330B0EC11CF22915D246F56BC59F51DAFDE17BE724613531358C5F192AB
+Path      : C:\Labs\CIP-A106-Lab03\memory\demo1_ransomware_7152_oep.dmp
+
+
+
+4D 44 4D 50 93 A7 F4 A0 0F 00 00 00 20 00 00 00
+MDMP signature OK
+Stream types: 3,17,4,9,16,7,15,12,21,22,0
+Memory regions: 218
+Modules: 30
+  0x400000 85000 C:\Labs\CIP-A106-Lab03\work\demo1_ransomware.exe
+  0x77040000 1BF000 C:\Windows\System32\ntdll.dll
+  0x75140000 F0000 C:\Windows\System32\kernel32.dll
+  0x76010000 2C8000 C:\Windows\System32\KERNELBASE.dll
+  0x73D10000 AE000 C:\Windows\System32\apphelp.dll
+  0x74EA0000 C7000 C:\Windows\System32\msvcrt.dll
+  0x762E0000 1C9000 C:\Windows\System32\user32.dll
+  0x76AB0000 1A000 C:\Windows\System32\win32u.dll
+  0x756A0000 22000 C:\Windows\System32\gdi32.dll
+  0x753B0000 EB000 C:\Windows\System32\gdi32full.dll
+  0x74C00000 85000 C:\Windows\System32\msvcp_win.dll
+  0x74F70000 110000 C:\Windows\System32\ucrtbase.dll
+  0x72520000 FA000 C:\Windows\System32\clusapi.dll
+  0x75890000 BC000 C:\Windows\System32\rpcrt4.dll
+  0x75790000 85000 C:\Windows\System32\advapi32.dll
+  0x76C30000 83000 C:\Windows\System32\sechost.dll
+  0x724A0000 54000 C:\Windows\System32\resutils.dll
+  0x72500000 1D000 C:\Windows\System32\mi.dll
+  0x72440000 52000 C:\Windows\System32\miutils.dll
+  0x76CF0000 292000 C:\Windows\System32\combase.dll
+  0x76CC0000 25000 C:\Windows\System32\imm32.dll
+  0x722C0000 17C000 C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.8036_none_b6a1702f52423e6e\GdiPlus.dll
+  0x76AD0000 52000 C:\Windows\System32\shlwapi.dll
+  0x743B0000 6E4000 C:\Windows\System32\Windows.Storage.dll
+  0x76910000 6000 C:\Windows\System32\psapi.dll
+  0x75950000 636000 C:\Windows\System32\shell32.dll
+  0x75530000 F9000 C:\Windows\System32\WinTypes.dll
+  0x74AA0000 151000 C:\Windows\System32\ole32.dll
+  0x722A0000 19000 C:\Windows\System32\mpr.dll
+  0x73080000 224000 C:\Windows\System32\wininet.dll
+MZ at 0x400000: True
+PE signature: True
+TimeDateStamp 0x56D208AF EntryRVA 0x265E8 SizeOfImage 0x85000
+First 0x400 header bytes identical to disk: False
+.text   VA 0x1000 vsz 0x2F3D0 rawsz 0x2F400 | entropy mem 6.69 file 7.63 | differing 191541 of 193488 | mem sha256 2A84B69358856CC835F476E4CF1FCEA5C3E5E1641C210C4763CB649EBF543815
+.rdata  VA 0x31000 vsz 0xA9C0 rawsz 0xAA00 | entropy mem 6.18 file 7.92 | differing 43275 of 43456 | mem sha256 0FBAF5E7EE4A714902D29A4C79A88B8015FABE01E268DA31B0C8C28BAB2910B7
+.data   VA 0x3C000 vsz 0x45304 rawsz 0x2600 | entropy mem 0.30 file 7.88 | differing 9669 of 9728 | mem sha256 6267F86336983B49B960EE133CC4E5E35C07BF67EA882D92F88434A175D944CD
+.reloc  VA 0x82000 vsz 0x2BD8 rawsz 0x2C00 | entropy mem 5.11 file 7.88 | differing 11155 of 11224 | mem sha256 278E76127ACDCDDF7DAA5FFD9E008C9276A4724B6D703F20797EB93B1165713A
+Extracted image: C:\Labs\CIP-A106-Lab03\unpacked\oep\mem_image_0x400000.bin 544768 bytes, zero-filled (not in dump): 0, sha256 8DE53033FFB8C5936EE7BFA7BDFFA4C15ED1F2D98C9029693E4239C4A4EA75E5
+needle | dump ascii | dump utf16 | disk ascii | disk utf16 | first dump VA
+zatcurr | 6 | 0 | 0 | 0 | 0x438C15
+keratadze | 6 | 0 | 0 | 0 | 0x438C46
+milerteddy | 6 | 0 | 0 | 0 | 0x438C78
+.onion | 3 | 0 | 0 | 0 | 0x438D95
+4855EB75F88FBD5 | 0 | 0 | 0 | 0 | -
+1E3Hf3Mpy4g8zZUHPoAFwSarq5UxLbocT3 | 0 | 0 | 0 | 0 | -
+_RECOVERY_ | 0 | 1 | 0 | 0 | -
+wmic | 2 | 1 | 0 | 0 | 0x43A2A8
+vssadmin | 0 | 0 | 0 | 0 | -
+CurrentVersion\Run | 0 | 2 | 0 | 0 | -
+gudpnujaukba | 0 | 0 | 0 | 0 | -
+bbflnrupddix | 0 | 0 | 0 | 0 | -
+.mp3 | 0 | 4 | 0 | 0 | -
+

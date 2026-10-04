@@ -1,0 +1,4 @@
+These ten files are text copied out of the VM through the console, so they are rebuilt copies. Line endings and trailing
+whitespace differ from the originals, so their SHA-256 values differ from the VM originals. The original hashes are listed in
+03_Evidence_Manifest (evidence_manifest.csv). 07_note_recovery_txt.txt holds the text of a ransom note: do not open any address in it.
+In 11_dump_validation_cs.txt and 13_oep_dump_record.txt the "file" entropy and "differing" columns are invalid (mismatched section table) and are not cited.

@@ -1,0 +1,90 @@
+MDMP signature OK
+Stream types: 3,17,4,14,9,16,7,15,12,21,22,0
+Memory regions: 357
+Modules: 55
+  0x400000 85000 C:\Users\cybersky\Documents\bbflnrupddix.exe
+  0x77040000 1BF000 C:\Windows\System32\ntdll.dll
+  0x75140000 F0000 C:\Windows\System32\kernel32.dll
+  0x76010000 2C8000 C:\Windows\System32\KERNELBASE.dll
+  0x73D10000 AE000 C:\Windows\System32\apphelp.dll
+  0x74EA0000 C7000 C:\Windows\System32\msvcrt.dll
+  0x762E0000 1C9000 C:\Windows\System32\user32.dll
+  0x76AB0000 1A000 C:\Windows\System32\win32u.dll
+  0x756A0000 22000 C:\Windows\System32\gdi32.dll
+  0x753B0000 EB000 C:\Windows\System32\gdi32full.dll
+  0x74C00000 85000 C:\Windows\System32\msvcp_win.dll
+  0x74F70000 110000 C:\Windows\System32\ucrtbase.dll
+  0x72520000 FA000 C:\Windows\System32\clusapi.dll
+  0x75890000 BC000 C:\Windows\System32\rpcrt4.dll
+  0x75790000 85000 C:\Windows\System32\advapi32.dll
+  0x76C30000 83000 C:\Windows\System32\sechost.dll
+  0x724A0000 54000 C:\Windows\System32\resutils.dll
+  0x72500000 1D000 C:\Windows\System32\mi.dll
+  0x72440000 52000 C:\Windows\System32\miutils.dll
+  0x76CF0000 292000 C:\Windows\System32\combase.dll
+  0x76CC0000 25000 C:\Windows\System32\imm32.dll
+  0x722C0000 17C000 C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.8036_none_b6a1702f52423e6e\GdiPlus.dll
+  0x76AD0000 52000 C:\Windows\System32\shlwapi.dll
+  0x743B0000 6E4000 C:\Windows\System32\Windows.Storage.dll
+  0x76910000 6000 C:\Windows\System32\psapi.dll
+  0x75950000 636000 C:\Windows\System32\shell32.dll
+  0x75530000 F9000 C:\Windows\System32\WinTypes.dll
+  0x74AA0000 151000 C:\Windows\System32\ole32.dll
+  0x722A0000 19000 C:\Windows\System32\mpr.dll
+  0x73080000 224000 C:\Windows\System32\wininet.dll
+  0x73EC0000 15000 C:\Windows\System32\kernel.appcore.dll
+  0x75F90000 74000 C:\Windows\System32\bcryptPrimitives.dll
+  0x73460000 80000 C:\Windows\System32\uxtheme.dll
+  0x74DC0000 D2000 C:\Windows\System32\SHCore.dll
+  0x74CA0000 119000 C:\Windows\System32\msctf.dll
+  0x73EE0000 1D000 C:\Windows\System32\profapi.dll
+  0x72280000 14000 C:\Windows\System32\cryptsp.dll
+  0x72240000 32000 C:\Windows\System32\rsaenh.dll
+  0x73D00000 A000 C:\Windows\System32\CRYPTBASE.dll
+  0x732B0000 1C000 C:\Windows\System32\bcrypt.dll
+  0x734F0000 D2000 C:\Windows\System32\propsys.dll
+  0x75090000 9F000 C:\Windows\System32\oleaut32.dll
+  0x754A0000 86000 C:\Windows\System32\clbcatq.dll
+  0x71FA0000 229000 C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8037_none_85b66681f7afde41\comctl32.dll
+  0x71F10000 82000 C:\Windows\System32\duser.dll
+  0x71E60000 A5000 C:\Windows\System32\TextShaping.dll
+  0x73CE0000 E000 C:\Windows\System32\atlthunk.dll
+  0x71C30000 1DF000 C:\Windows\System32\WindowsCodecs.dll
+  0x71B20000 103000 C:\Windows\System32\textinputframework.dll
+  0x6FD00000 DD000 C:\Windows\System32\CoreMessaging.dll
+  0x6FA60000 292000 C:\Windows\System32\CoreUIComponents.dll
+  0x721F0000 48000 C:\Windows\System32\ndfapi.dll
+  0x76BC0000 61000 C:\Windows\System32\ws2_32.dll
+  0x721D0000 18000 C:\Windows\System32\wdi.dll
+  0x72920000 27000 C:\Windows\System32\IPHLPAPI.DLL
+MZ at 0x400000: True
+PE signature: True
+TimeDateStamp 0x56D208AF EntryRVA 0x265E8 SizeOfImage 0x85000
+First 0x400 header bytes identical to disk: False
+.text   VA 0x1000 vsz 0x2F3D0 rawsz 0x2F400 | entropy mem 6.69 file 7.63 | differing 191541 of 193488 | mem sha256 2A84B69358856CC835F476E4CF1FCEA5C3E5E1641C210C4763CB649EBF543815
+.rdata  VA 0x31000 vsz 0xA9C0 rawsz 0xAA00 | entropy mem 6.18 file 7.92 | differing 43275 of 43456 | mem sha256 0FBAF5E7EE4A714902D29A4C79A88B8015FABE01E268DA31B0C8C28BAB2910B7
+.data   VA 0x3C000 vsz 0x45304 rawsz 0x2600 | entropy mem 0.94 file 7.88 | differing 9671 of 9728 | mem sha256 DF9934A738ABB8C4428E7983D4B8B85C9F346D4A40071078741264C2AAD1E5A1
+.reloc  VA 0x82000 vsz 0x2BD8 rawsz 0x2C00 | entropy mem 5.11 file 7.88 | differing 11155 of 11224 | mem sha256 278E76127ACDCDDF7DAA5FFD9E008C9276A4724B6D703F20797EB93B1165713A
+Extracted image: C:\Labs\CIP-A106-Lab03\unpacked\mem_image_0x400000.bin 544768 bytes, zero-filled (not in dump): 0, sha256 42900DE68702ADB3E6802155AA416C7EEB5F19EBCC7D7387C08BAA4C51D7D9A8
+needle | dump ascii | dump utf16 | disk ascii | disk utf16 | first dump VA
+zatcurr | 18 | 0 | 0 | 0 | 0x438C15
+keratadze | 18 | 0 | 0 | 0 | 0x438C46
+milerteddy | 18 | 0 | 0 | 0 | 0x438C78
+.onion | 9 | 0 | 0 | 0 | 0x438D95
+4855EB75F88FBD5 | 23 | 1 | 0 | 0 | 0x460C85
+1E3Hf3Mpy4g8zZUHPoAFwSarq5UxLbocT3 | 1 | 0 | 0 | 0 | 0x43FC58
+_RECOVERY_ | 0 | 666 | 0 | 0 | -
+wmic | 3 | 14 | 0 | 0 | 0x43A2A8
+vssadmin | 0 | 0 | 0 | 0 | -
+CurrentVersion\Run | 0 | 3 | 0 | 0 | -
+gudpnujaukba | 0 | 1 | 0 | 0 | -
+bbflnrupddix | 1 | 36 | 0 | 0 | 0x729754
+.mp3 | 0 | 30 | 0 | 0 | -
+
+
+
+Hash : 299BA6B0AAD31969FE2E089C2106746544A68827869C6A62460E164AAA8DFDFC
+Path : C:\Labs\CIP-A106-Lab03\work\dumpcheck.cs
+
+
+

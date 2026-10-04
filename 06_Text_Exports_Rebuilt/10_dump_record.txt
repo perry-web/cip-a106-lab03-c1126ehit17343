@@ -1,0 +1,17 @@
+
+
+Name         : bbflnrupddix_4820.dmp
+Length       : 117739615
+CreationTime : 10/4/2026 2:16:46 AM
+
+
+
+
+
+Algorithm : SHA256
+Hash      : 6FA90986C74D9383B9FC0A9CC0AD3D06A92357E15EA95D4075AFEB4BFC79C0B8
+Path      : C:\Labs\CIP-A106-Lab03\memory\bbflnrupddix_4820.dmp
+
+
+
+4D 44 4D 50 93 A7 F4 A0 10 00 00 00 20 00 00 00
